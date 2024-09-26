@@ -1,0 +1,30 @@
+body {
+    background-color: gainsboro;
+}
+
+strong {
+    color:crimson;
+    font-weight:bolder;
+    font-style: italic;
+}
+
+footer{
+    border: 2px dotted black;
+    border-radius: 10%;
+}
+
+h3{ 
+    background-color: aquamarine;
+}
+.internal-h3 {
+    background-color: rgb(255, 0, 13);
+
+}
+
+#ideed {
+    border: 5px dotted red;
+}
+
+.very-important { 
+    background-color: rgb(142, 142, 197);
+}
