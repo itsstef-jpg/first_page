@@ -28,3 +28,50 @@ h3{
 .very-important { 
     background-color: rgb(142, 142, 197);
 }
+
+.linky {
+    background-color: rgb(132, 222, 222);
+
+}
+
+.blocky-1{
+    position:static;
+    background-color: rgb(131, 227, 173);
+    margin: 2px;
+    padding: 2px;
+    border: 5px rgb(18, 21, 21) dashed;
+
+}
+.blocky-2{
+    position: fixed;
+    left: 80px;
+    bottom: 20px;
+    background-color: rgb(145, 131, 227);
+    margin: 2px;
+    padding: 2px;
+    border: 5px rgb(18, 21, 21) dashed;
+
+}
+.blocky-3{
+    position: relative;
+    top: 90px;
+    background-color: rgb(227, 131, 155);
+    margin: 2px;
+    padding: 2px;
+    border: 5px rgb(18, 21, 21) dashed;
+
+}
+
+.blocky-4{
+    position: sticky;
+    right:20px;
+    background-color: rgb(227, 206, 131);
+    margin: 2px;
+    padding: 2px;
+    border: 5px rgb(18, 21, 21) dashed;
+
+}
+
+.spanner {
+    text-decoration: dotted;
+}
