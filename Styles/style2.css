@@ -1,0 +1,70 @@
+body{
+    width: 90vw;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 18px;
+}
+#header-header {
+    background-color: rgb(249, 216, 247);
+    border-radius: 20%;
+
+}
+
+#footer-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    background-color: rgb(197, 230, 248);
+    border: dashed white 5px;
+}
+
+/* This changes the color to purple when window size is 576px */
+/* also font size ;) */
+@media (min-width: 576px) {
+    body {
+        font-size: 12px;
+    }
+    #header-header {
+    background-color: rgb(180, 183, 253);
+    }
+}
+/* This changes the color to purple when window size is 768px */
+/* also font size ;) */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    #header-header {
+        background-color: rgb(180, 253, 202) ;
+    }
+}
+
+a:hover {
+    color: coral;
+}
+
+.wide-paragraph {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: dotted 5px greenyellow;
+    justify-content: space-around;
+
+}
+
+.within {
+    width: 200px;
+    border: none;
+
+
+
+}
