@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+    margin: 5%;
+}
+
+
+a {
+    background-color: rgb(215, 248, 239);
+    border: 2px solid rgb(12, 70, 48);
+    font-family: monospace;
+    padding: 2px;
+    margin: 2px;
+}
+
+a:hover {
+    color: rgb(233, 23, 152);
+    background-color: aquamarine;
+    border: 2px dashed magenta;
+}
+
+a:visited {
+    color: rgb(216, 14, 108);
+}
+
+li {
+    line-height: 30px;
+}
+
+/* grid template columns work in fractions */
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 300px 100px 400px;
+}
+
+.within-1 {
+    display:flex;
+    background-color: rgb(173, 201, 238);
+    /* width: 200px; */
+    /* height: 200px; */
+    border: solid 3px rgb(104, 104, 104);
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.within-2 {
+    display:flex;
+    background-color: rgb(173, 201, 238);
+    /* width: 200px; */
+    /* height: 200px; */
+    border: solid 3px rgb(104, 104, 104);
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: xx-large;
+}
+.within-3 {
+    display:flex;
+    background-color: rgb(173, 201, 238);
+    /* width: 200px; */
+    /* height: 200px; */
+    border: solid 3px rgb(104, 104, 104);
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: xx-large;
+}
+.within-4 {
+    display:flex;
+    background-color: rgb(173, 201, 238);
+    /* width: 200px; */
+    /* height: 200px; */
+    border: solid 3px rgb(104, 104, 104);
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: xx-large;
+}
+.within-5 {
+    display:flex;
+    background-color: rgb(173, 201, 238);
+    /* width: 200px; */
+    /* height: 200px; */
+    border: solid 3px rgb(104, 104, 104);
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: xx-large;
+}
+.within-6 {
+    display:flex;
+    background-color: rgb(173, 201, 238);
+    /* width: 200px; */
+    /* height: 200px; */
+    border: solid 3px rgb(104, 104, 104);
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: xx-large;
+}
+.within-7 {
+    display:flex;
+    background-color: rgb(173, 201, 238);
+    /* width: 200px; */
+    /* height: 200px; */
+    border: solid 3px rgb(104, 104, 104);
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: xx-large;
+}
