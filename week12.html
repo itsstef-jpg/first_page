@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style4.css">
+    <!-- defer makes sure the html is parsed first before js is deployed -->
+    <script src="JS/week12.js" defer></script>
+    <title>Week 12 - Javascript functions, DOM events
+    </title>
+</head>
+<body>
+    <header> 
+        <h1>This is week 12</h1>
+        <ul>
+            <li> <a  href="index.html">Back to Main</a></li>
+        </ul>
+    </header>
+    <main>
+        <ul>
+            <li> Function declaration</li>
+            <li> Function expression</li>
+            <li> Arrow functions</li>
+            <li> DOM events</li>
+        </ul>
+        <p> DOM events are actions that occur as a result of user interaction with a web page. </p>
+
+        </p>
+        <p> Function declaration</p>
+        <ul>
+            <li> function functionName(parameters) {</li>
+            <li> // code to be executed</li>
+            <li> }</li>
+        </ul>
+        <p> Function expression</p>
+        <ul>
+            <li> var x = function (a, b) {return a * b};</li>
+        </ul>
+        <p> Arrow functions</p>
+        <ul>
+            <li> var x = (a, b) => a * b;</li>
+        </ul>
+        <p> Examples of DOM events include:</p>
+        <ul>
+            <li> Click</li>
+            <li> Mouseover</li>
+            <li> Mouseout</li>
+            <li> Keydown</li>
+            <li> Keyup</li>
+            <li> Load</li>
+            <li> Unload</li>
+            <li> Resize</li>
+            <li> Scroll</li>
+            <li> Windows resize</li>
+        </ul>
+        <p> Event Handling</p>
+        <p> 
+            Event handling is the process of capturing, directing, and responding to events. 
+            Events are actions or occurrences that happen in the system you are programming, 
+            which the system tells you about so you can respond to them in some way if desired.
+        </p>
+        <p>
+            Event Listener Syntax
+        </p>
+        <p> 
+            The syntax for adding an event listener is as follows:
+        </p>
+        <ul>
+            <li> element.addEventListener(event, function, useCapture);</li>
+        </ul>
+        <h3> Function Output</h3>
+        <div id="function-output">
+        </div>
+        <ul id="function-list">
+            <li> Function output will be displayed here</li>
+        </ul>
+        <h3> Some buttons</h3>
+        <button id="button1">Click me</button>
+        <button id="counter-button">Click me</button>
+        <div id="counter-output">
+
+        </div>
+        <p> This never works for me....</p>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
